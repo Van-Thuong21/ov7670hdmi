@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="ov7670_top" Register="103" Alu="39" Lut="94" T_Register="1635(103)" T_Alu="748(39)" T_Lut="2389(94)" T_Bsram="9(0)" T_Ssram="19(0)">
+ <SubModule name="u_clk"/>
+ <SubModule name="u_btn_run" Register="47" Alu="20" Lut="48" T_Register="47(47)" T_Alu="20(20)" T_Lut="48(48)"/>
+ <SubModule name="u_btn_mode" Register="47" Alu="20" Lut="49" T_Register="47(47)" T_Alu="20(20)" T_Lut="49(49)"/>
+ <SubModule name="u_init" Register="41" Lut="102" Bsram="1" T_Register="92(41)" T_Alu="7(0)" T_Lut="175(102)" T_Bsram="1(1)">
+  <SubModule name="u_sccb" Register="51" Alu="7" Lut="73" T_Register="51(51)" T_Alu="7(7)" T_Lut="73(73)"/>
+ </SubModule>
+ <SubModule name="u_cap" Register="163" Alu="19" Lut="17" T_Register="163(163)" T_Alu="19(19)" T_Lut="17(17)"/>
+ <SubModule name="u_fs" Register="943" Alu="97" Lut="1364" Bsram="4" Ssram="19" T_Register="1013(943)" T_Alu="115(97)" T_Lut="1416(1364)" T_Bsram="8(4)" T_Ssram="19(19)">
+  <SubModule name="u_lb" Bsram="2" T_Bsram="2(2)"/>
+  <SubModule name="u_fifo" Register="70" Alu="18" Lut="52" Bsram="2" T_Register="70(70)" T_Alu="18(18)" T_Lut="52(52)" T_Bsram="2(2)"/>
+ </SubModule>
+ <SubModule name="u_scan" Register="47" Alu="9" Lut="103" T_Register="47(47)" T_Alu="9(9)" T_Lut="103(103)"/>
+ <SubModule name="u_tx" Lut="1" T_Register="123(0)" T_Alu="519(0)" T_Lut="487(1)">
+  <SubModule name="u_e0" Register="41" Alu="173" Lut="159" T_Register="41(41)" T_Alu="173(173)" T_Lut="159(159)"/>
+  <SubModule name="u_e1" Register="41" Alu="173" Lut="175" T_Register="41(41)" T_Alu="173(173)" T_Lut="175(175)"/>
+  <SubModule name="u_e2" Register="41" Alu="173" Lut="152" T_Register="41(41)" T_Alu="173(173)" T_Lut="152(152)"/>
+ </SubModule>
+</Module>

@@ -1,0 +1,69 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/afifo64.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/btn_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/clk_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/frame_store.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/hdmi_scan.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/hdmi_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/line_buf.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_capture.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_init.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/psram_memory_interface_hs/psram_memory_interface_hs.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/sccb_master.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/tmds_encoder.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/video_proc.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
