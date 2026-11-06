@@ -1,0 +1,146 @@
+[
+ {
+  "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_top.v",
+  "InstLine" : 24,
+  "InstName" : "ov7670_top",
+  "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_top.v",
+  "ModuleLine" : 24,
+  "ModuleName" : "ov7670_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_top.v",
+    "InstLine" : 70,
+    "InstName" : "u_clk",
+    "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/clk_gen.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "clk_gen"
+   },
+   {
+    "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_top.v",
+    "InstLine" : 82,
+    "InstName" : "u_btn_run",
+    "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/btn_ctrl.v",
+    "ModuleLine" : 7,
+    "ModuleName" : "btn_ctrl"
+   },
+   {
+    "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_top.v",
+    "InstLine" : 83,
+    "InstName" : "u_btn_mode",
+    "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/btn_ctrl.v",
+    "ModuleLine" : 7,
+    "ModuleName" : "btn_ctrl"
+   },
+   {
+    "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_top.v",
+    "InstLine" : 98,
+    "InstName" : "u_init",
+    "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_init.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "ov7670_init",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_init.v",
+      "InstLine" : 167,
+      "InstName" : "u_sccb",
+      "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/sccb_master.v",
+      "ModuleLine" : 7,
+      "ModuleName" : "sccb_master"
+     }
+    ]
+   },
+   {
+    "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_top.v",
+    "InstLine" : 112,
+    "InstName" : "u_cap",
+    "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_capture.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "ov7670_capture"
+   },
+   {
+    "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_top.v",
+    "InstLine" : 123,
+    "InstName" : "u_fs",
+    "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/frame_store.v",
+    "ModuleLine" : 27,
+    "ModuleName" : "frame_store",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/frame_store.v",
+      "InstLine" : 85,
+      "InstName" : "u_psram",
+      "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/psram_memory_interface_hs/psram_memory_interface_hs.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "PSRAM_Memory_Interface_HS_Top"
+     },
+     {
+      "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/frame_store.v",
+      "InstLine" : 208,
+      "InstName" : "u_lb",
+      "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/line_buf.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "line_buf"
+     },
+     {
+      "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/frame_store.v",
+      "InstLine" : 231,
+      "InstName" : "u_fifo",
+      "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/afifo64.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "afifo64"
+     }
+    ]
+   },
+   {
+    "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_top.v",
+    "InstLine" : 143,
+    "InstName" : "u_scan",
+    "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/hdmi_scan.v",
+    "ModuleLine" : 18,
+    "ModuleName" : "hdmi_scan"
+   },
+   {
+    "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_top.v",
+    "InstLine" : 151,
+    "InstName" : "u_proc",
+    "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/video_proc.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "video_proc"
+   },
+   {
+    "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/ov7670_top.v",
+    "InstLine" : 157,
+    "InstName" : "u_tx",
+    "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/hdmi_tx.v",
+    "ModuleLine" : 7,
+    "ModuleName" : "hdmi_tx",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/hdmi_tx.v",
+      "InstLine" : 26,
+      "InstName" : "u_e0",
+      "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/tmds_encoder.v",
+      "ModuleLine" : 7,
+      "ModuleName" : "tmds_encoder"
+     },
+     {
+      "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/hdmi_tx.v",
+      "InstLine" : 27,
+      "InstName" : "u_e1",
+      "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/tmds_encoder.v",
+      "ModuleLine" : 7,
+      "ModuleName" : "tmds_encoder"
+     },
+     {
+      "InstFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/hdmi_tx.v",
+      "InstLine" : 28,
+      "InstName" : "u_e2",
+      "ModuleFile" : "E:/.Local/ov7670_hdmi/ov7670_hdmi/src/tmds_encoder.v",
+      "ModuleLine" : 7,
+      "ModuleName" : "tmds_encoder"
+     }
+    ]
+   }
+  ]
+ }
+]

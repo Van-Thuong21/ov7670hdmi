@@ -1,0 +1,58 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'E:\.Local\ov7670_hdmi\ov7670_hdmi\src\afifo64.v'
+Analyzing Verilog file 'E:\.Local\ov7670_hdmi\ov7670_hdmi\src\btn_ctrl.v'
+Analyzing Verilog file 'E:\.Local\ov7670_hdmi\ov7670_hdmi\src\clk_gen.v'
+Analyzing Verilog file 'E:\.Local\ov7670_hdmi\ov7670_hdmi\src\frame_store.v'
+Analyzing Verilog file 'E:\.Local\ov7670_hdmi\ov7670_hdmi\src\hdmi_scan.v'
+Analyzing Verilog file 'E:\.Local\ov7670_hdmi\ov7670_hdmi\src\hdmi_tx.v'
+Analyzing Verilog file 'E:\.Local\ov7670_hdmi\ov7670_hdmi\src\line_buf.v'
+Analyzing Verilog file 'E:\.Local\ov7670_hdmi\ov7670_hdmi\src\ov7670_capture.v'
+Analyzing Verilog file 'E:\.Local\ov7670_hdmi\ov7670_hdmi\src\ov7670_init.v'
+Analyzing Verilog file 'E:\.Local\ov7670_hdmi\ov7670_hdmi\src\ov7670_top.v'
+Analyzing Verilog file 'E:\.Local\ov7670_hdmi\ov7670_hdmi\src\psram_memory_interface_hs\psram_memory_interface_hs.v'
+Analyzing Verilog file 'E:\.Local\ov7670_hdmi\ov7670_hdmi\src\sccb_master.v'
+Analyzing Verilog file 'E:\.Local\ov7670_hdmi\ov7670_hdmi\src\tmds_encoder.v'
+Analyzing Verilog file 'E:\.Local\ov7670_hdmi\ov7670_hdmi\src\video_proc.v'
+WARN  (EX3073) : Port 'frm_tgl' remains unconnected for this instance("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\ov7670_top.v":136)
+Compiling module 'ov7670_top'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\ov7670_top.v":24)
+Compiling module 'clk_gen'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\clk_gen.v":8)
+Compiling module 'btn_ctrl'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\btn_ctrl.v":7)
+Compiling module 'ov7670_init(CLKRC_VAL=8'b00000001)'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\ov7670_init.v":2)
+Compiling module 'sccb_master'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\sccb_master.v":7)
+Compiling module 'ov7670_capture'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\ov7670_capture.v":2)
+Compiling module 'frame_store'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\frame_store.v":27)
+Extracting RAM for identifier 'rd0_buf'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\frame_store.v":258)
+Extracting RAM for identifier 'rd1_buf'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\frame_store.v":259)
+Compiling module '**'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\psram_memory_interface_hs\psram_memory_interface_hs.v":6482)
+Compiling module 'line_buf'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\line_buf.v":6)
+Extracting RAM for identifier 'mem'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\line_buf.v":15)
+Compiling module 'afifo64'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\afifo64.v":9)
+Extracting RAM for identifier 'mem'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\afifo64.v":26)
+Compiling module 'hdmi_scan'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\hdmi_scan.v":18)
+Compiling module 'video_proc'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\video_proc.v":13)
+Compiling module 'hdmi_tx'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\hdmi_tx.v":7)
+Compiling module 'tmds_encoder'("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\tmds_encoder.v":7)
+WARN  (EX2565) : Input 'frm_tgl' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\ov7670_top.v":136)
+NOTE  (EX0101) : Current top module is "ov7670_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "video_proc" instantiated to "u_proc" is swept in optimizing("E:\.Local\ov7670_hdmi\ov7670_hdmi\src\ov7670_top.v":155)
+[95%] Generate netlist file "E:\.Local\ov7670_hdmi\ov7670_hdmi\impl\gwsynthesis\ov7670_hdmi.vg" completed
+WARN  (CK3000) : Can't calculate clocks' relationship between: "cam_pclk" and "u_fs/u_psram/clkdiv/CLKOUT.default_gen_clk"
+[100%] Generate report file "E:\.Local\ov7670_hdmi\ov7670_hdmi\impl\gwsynthesis\ov7670_hdmi_syn.rpt.html" completed
+GowinSynthesis finish
